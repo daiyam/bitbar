@@ -5,7 +5,7 @@ PROJECT = $(shell find . -name 'BitBar.xcodeproj')
 all: build
 
 clean:
-	rm -r ./**/build
+	rm -fr ./**/build
 
 build:
 	git submodule init && git submodule update
